@@ -5,6 +5,7 @@
 const char* ssid = "YOUR_WIFI";
 const char* password = "YOUR_PASS";
 const char* mqtt_server = "YOUR_VPS_IP";
+String deviceId = "SMHC-260507-001";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
